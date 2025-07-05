@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "IT'S WORKING!"
+    return "IT'S WORKING WITH CI/CD!"
 
 @app.route('/health')
 def health():
