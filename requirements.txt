@@ -1,3 +1,4 @@
 ﻿Flask==2.0.3
 gunicorn==20.1.0
-werkzeug==2.0.3  # Critical fix for url_quote error
+werkzeug==2.0.3
+pytest==8.4.1
